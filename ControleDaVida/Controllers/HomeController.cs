@@ -13,14 +13,19 @@ namespace ControleDaVida.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Cadastro()
+        {
+            return View();
+        }
+
+        public ActionResult Sobre()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contato()
         {
             ViewBag.Message = "Your contact page.";
 
